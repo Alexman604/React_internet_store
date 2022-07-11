@@ -10,11 +10,14 @@
   <script src="https://unpkg.com/react@latest/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@latest/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="stylesheet" href="card-style.css">
 </head>
 
 <body>
     
 <div id="root"> </div>
+
+
 <script type="text/babel">
     const CardComponent = () => {
       return (
@@ -27,7 +30,8 @@
         </div>
         <div className = "item-title"> title </div>
         <div class = "type" > category </div> 
-            <div className = "button" > ADD TO CART </div>   
+            
+            <button className = "button" type = "button" > ADD TO CART </button>  
         </div>
 
      
